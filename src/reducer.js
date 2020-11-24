@@ -1,8 +1,5 @@
-const reducer = (state = 0, action) => {
 
-  if (state === undefined) {
-    return 0;
-  }
+const reducer = (state = 15, action) => {
 
   switch (action.type) {
     case "INC":
